@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1> Contact Me </h1>
+        <nav>
+            <ul>
+            <a href="index.html">Home</a> | 
+            <a href="about.html" target="_blank">about me</a> | 
+            <a href="skills.html" target="_blank">Skills and Education</a> | 
+            <a href="projects.html" target="_blank">Projects and achievements</a> | 
+            <a href="media.html" target="_blank">My Media and Interests</a>| 
+            <a href="contact.html" target="_blank">Contact Me</a>
+            </ul>
+        </nav
+        <p> Feel free to reach out for any questions or inquiries. </p>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fullname"><b>Full Name: </b></label>
+                <input type="text" placeholder="e.g: John Doe" required> <br> <br>
+                <label for="email"><b>Email: </b></label>
+                <input type="email" placeholder="e.g: johndoe@gmail.com" required> <br> <br>
+                <label for="phone"><b>Phone Number: </b></label>
+                <input type="tel" placeholder="enter your phone number" required> <br> <br>
+                <label for="website"><b>Your Website: </b></label>
+                <input type="text"> <br> <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> More about you</legend>
+                <label for="thought">How do you rate my website?</label>
+                <input type="range" max="10" min="0">
+            </fieldset>
+            <fieldset>
+                <legend> Message Details</legend>
+                <label for="subj">How did you find my website? </label>
+                <select>
+                    <option> Search Engine </option>
+                    <option> Through People</option>
+                    <option> Stumbled upon it</option>
+                    <option> Social Media</option>
+                </select>
+                <br> <br>
+                <label for="msg">Your Thoughts?</label> <br>
+                <textarea rows="5" cols="30"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <butotn type="reset">Reset</button>
+        </form>
+    </body>
